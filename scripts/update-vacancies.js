@@ -4,7 +4,7 @@
  *
  * Run by .github/workflows/update-vacancies.yml every day at 06:00 UTC.
  * Pulls live listings from two official GOV.UK services and rewrites
- * data/vacancies.json, which vacancies.html reads.
+ * vacancies.json, which skilllondon.com/vacancies reads.
  *
  *   1. Find an Apprenticeship – Route 9 (Engineering and Manufacturing)
  *   2. Teaching Vacancies – Engineering / Electrics / Computing roles in FE colleges
