@@ -1,11 +1,11 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-20T12:08:53.997Z",
-    "lastUpdatedFormatted": "20 November 2026 at 12:08 UTC",
+    "lastUpdated": "2026-11-20T12:16:45.293Z",
+    "lastUpdatedFormatted": "20 November 2026 at 12:16 UTC",
     "sourceName": "GOV.UK Find an Apprenticeship & Teaching Vacancies in FE Colleges",
     "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?routeIds=9&distance=10&routePath=Location",
     "schedule": "Daily at 06:00 UTC (GitHub Actions)",
-    "totalActive": 78,
+    "totalActive": 79,
     "status": "active",
     "syncLog": [
       "Apprenticeships: 50 live vacancies fetched.",
@@ -660,21 +660,21 @@
       "source": "GOV.UK Find an Apprenticeship (Route 9)"
     },
     {
-      "id": "VAC2000057358",
+      "id": "VAC2000057312",
       "title": "2027 Manufacturing Apprentice - Templecombe",
       "employer": "THALES UK LIMITED",
       "location": "Templecombe (BA8 0DH)",
       "borough": "Templecombe (BA8 0DH)",
       "category": "Apprenticeship",
-      "level": "Level 3 (Advanced / EPA)",
-      "levelCode": "Level 3",
+      "level": "Level 2 (Intermediate)",
+      "levelCode": "Level 2",
       "discipline": "Manufacturing & Production",
       "salary": "£24,000 a year",
       "closingDate": "2027-02-17",
       "postedDate": "2026-10-05",
-      "epaStandard": "Engineering and manufacturing support technician (level 3)",
-      "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000057358",
-      "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Engineering and manufacturing support technician (level 3).",
+      "epaStandard": "Engineering operative (level 2)",
+      "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000057312",
+      "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Engineering operative (level 2).",
       "requirements": "See the full advert on GOV.UK for entry requirements.",
       "source": "GOV.UK Find an Apprenticeship (Route 9)"
     },
@@ -1492,6 +1492,25 @@
       "epaStandard": "Engineering operative (level 2)",
       "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000061394",
       "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Engineering operative (level 2).",
+      "requirements": "See the full advert on GOV.UK for entry requirements.",
+      "source": "GOV.UK Find an Apprenticeship (Route 9)"
+    },
+    {
+      "id": "VAC2000064500",
+      "title": "Apprentice Industrial Door Service Engineer - Reading",
+      "employer": "KONECRANES UK LIMITED",
+      "location": "South Gloucestershire (BS35 3UU)",
+      "borough": "South Gloucestershire (BS35 3UU)",
+      "category": "Apprenticeship",
+      "level": "Level 3 (Advanced / EPA)",
+      "levelCode": "Level 3",
+      "discipline": "Maintenance",
+      "salary": "£18,515.64 a year",
+      "closingDate": "2027-01-31",
+      "postedDate": "2026-11-17",
+      "epaStandard": "Mechatronics maintenance technician (level 3)",
+      "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000064500",
+      "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Mechatronics maintenance technician (level 3).",
       "requirements": "See the full advert on GOV.UK for entry requirements.",
       "source": "GOV.UK Find an Apprenticeship (Route 9)"
     }
