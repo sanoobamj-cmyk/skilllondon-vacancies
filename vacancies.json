@@ -1,15 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-20T12:16:45.293Z",
-    "lastUpdatedFormatted": "20 November 2026 at 12:16 UTC",
+    "lastUpdated": "2026-11-21T14:08:57.300Z",
+    "lastUpdatedFormatted": "21 November 2026 at 14:08 UTC",
     "sourceName": "GOV.UK Find an Apprenticeship & Teaching Vacancies in FE Colleges",
     "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?routeIds=9&distance=10&routePath=Location",
     "schedule": "Daily at 06:00 UTC (GitHub Actions)",
-    "totalActive": 79,
+    "totalActive": 81,
     "status": "active",
     "syncLog": [
       "Apprenticeships: 50 live vacancies fetched.",
-      "FE college jobs: 50 live vacancies fetched."
+      "FE college jobs: 32 live vacancies fetched."
     ]
   },
   "vacancies": [
@@ -375,6 +375,25 @@
       "source": "GOV.UK Teaching & FE Vacancies"
     },
     {
+      "id": "fe-govuk-lecturer-he-digital-technology",
+      "title": "Lecturer - HE Digital Technology",
+      "employer": "DN Colleges Group",
+      "location": "DN Colleges Group, Chappell Drive, Doncaster, DN1 2RF",
+      "borough": "DN Colleges Group, Chappell Drive, Doncaster, DN1 2RF",
+      "category": "FE College & Teaching",
+      "level": "FE College Lecturer / Teacher",
+      "levelCode": "FE College",
+      "discipline": "Computing & Digital",
+      "salary": "£33,787- £42,766",
+      "closingDate": "2026-12-04",
+      "postedDate": "2026-11-20",
+      "epaStandard": "Further Education College (FE College, ages 16 to 99 Full time (Can be done as a job share))",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/lecturer-he-digital-technology",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at DN Colleges Group, Chappell Drive, Doncaster, DN1 2RF. FE College, ages 16 to 99 Full time (Can be done as a job share).",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
       "id": "fe-govuk-hgv-workshop-supervisor",
       "title": "HGV Workshop Supervisor",
       "employer": "Loughborough College",
@@ -447,6 +466,25 @@
       "epaStandard": "Further Education College (FE College, ages 16 to 99 Full time: 37 hours per week, Monday to Friday all year round)",
       "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/electrical-and-electronic-engineering-lecturer-and-programme-lead",
       "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at Yeovil College, Mudford Road, Yeovil, Somerset, BA21 4DR. FE College, ages 16 to 99 Full time: 37 hours per week, Monday to Friday all year round.",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
+      "id": "fe-govuk-lecturer-in-electrical-installation-new-college-durham",
+      "title": "Lecturer in Electrical Installation",
+      "employer": "New College Durham",
+      "location": "New College Durham, Framwellgate Moor Centre, Durham, DH1 5ES",
+      "borough": "New College Durham, Framwellgate Moor Centre, Durham, DH1 5ES",
+      "category": "FE College & Teaching",
+      "level": "FE College Lecturer / Teacher",
+      "levelCode": "FE College",
+      "discipline": "Electrical",
+      "salary": "Pay scale Teaching and Training Grade TT04-TT07; £37,218 to £44,453 per annum*",
+      "closingDate": "2026-12-06",
+      "postedDate": "2026-11-20",
+      "epaStandard": "Further Education College (FE College, ages 16 to 99 Full time)",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/lecturer-in-electrical-installation-new-college-durham",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at New College Durham, Framwellgate Moor Centre, Durham, DH1 5ES. FE College, ages 16 to 99 Full time.",
       "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
       "source": "GOV.UK Teaching & FE Vacancies"
     },
@@ -831,25 +869,6 @@
       "source": "GOV.UK Find an Apprenticeship (Route 9)"
     },
     {
-      "id": "VAC2000054664",
-      "title": "AD Plant Engineering Apprentice",
-      "employer": "Pickstock Telford Ltd",
-      "location": "Telford (TF1 7FA)",
-      "borough": "Telford (TF1 7FA)",
-      "category": "Apprenticeship",
-      "level": "Level 3 (Advanced / EPA)",
-      "levelCode": "Level 3",
-      "discipline": "Manufacturing & Production",
-      "salary": "£18,720 a year",
-      "closingDate": null,
-      "postedDate": "2026-09-22",
-      "epaStandard": "Engineering technician (level 3)",
-      "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000054664",
-      "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Engineering technician (level 3).",
-      "requirements": "See the full advert on GOV.UK for entry requirements.",
-      "source": "GOV.UK Find an Apprenticeship (Route 9)"
-    },
-    {
       "id": "VAC2000061992",
       "title": "APPRENTICE PRODUCTION OPERATIVE",
       "employer": "FP MCCANN LIMITED",
@@ -1054,6 +1073,25 @@
       "postedDate": "2026-11-17",
       "epaStandard": "Mechatronics maintenance technician (level 3)",
       "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000064502",
+      "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Mechatronics maintenance technician (level 3).",
+      "requirements": "See the full advert on GOV.UK for entry requirements.",
+      "source": "GOV.UK Find an Apprenticeship (Route 9)"
+    },
+    {
+      "id": "VAC2000065269",
+      "title": "Apprentice Crane Service Engineer - Middlesbrough",
+      "employer": "KONECRANES UK LIMITED",
+      "location": "Middlesbrough (TS3 8TF)",
+      "borough": "Middlesbrough (TS3 8TF)",
+      "category": "Apprenticeship",
+      "level": "Level 3 (Advanced / EPA)",
+      "levelCode": "Level 3",
+      "discipline": "Maintenance",
+      "salary": "£18,515.64 a year",
+      "closingDate": "2027-01-31",
+      "postedDate": "2026-11-20",
+      "epaStandard": "Mechatronics maintenance technician (level 3)",
+      "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000065269",
       "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Mechatronics maintenance technician (level 3).",
       "requirements": "See the full advert on GOV.UK for entry requirements.",
       "source": "GOV.UK Find an Apprenticeship (Route 9)"
@@ -1477,25 +1515,6 @@
       "source": "GOV.UK Find an Apprenticeship (Route 9)"
     },
     {
-      "id": "VAC2000061394",
-      "title": "Apprentice Industrial Door Engineer &#x2013; Alliance Door Engineering Ltd",
-      "employer": "ALLIANCE DOOR ENGINEERING LTD",
-      "location": "Wigan (WN3 6PH)",
-      "borough": "Wigan (WN3 6PH)",
-      "category": "Apprenticeship",
-      "level": "Level 2 (Intermediate)",
-      "levelCode": "Level 2",
-      "discipline": "Manufacturing & Production",
-      "salary": "£20,800 a year",
-      "closingDate": null,
-      "postedDate": "2026-10-28",
-      "epaStandard": "Engineering operative (level 2)",
-      "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000061394",
-      "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Engineering operative (level 2).",
-      "requirements": "See the full advert on GOV.UK for entry requirements.",
-      "source": "GOV.UK Find an Apprenticeship (Route 9)"
-    },
-    {
       "id": "VAC2000064500",
       "title": "Apprentice Industrial Door Service Engineer - Reading",
       "employer": "KONECRANES UK LIMITED",
@@ -1511,6 +1530,25 @@
       "epaStandard": "Mechatronics maintenance technician (level 3)",
       "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000064500",
       "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Mechatronics maintenance technician (level 3).",
+      "requirements": "See the full advert on GOV.UK for entry requirements.",
+      "source": "GOV.UK Find an Apprenticeship (Route 9)"
+    },
+    {
+      "id": "VAC2000060258",
+      "title": "Apprentice Laboratory Technician",
+      "employer": "LTI METALTECH LIMITED",
+      "location": "Oxfordshire (OX14 4RT)",
+      "borough": "Oxfordshire (OX14 4RT)",
+      "category": "Apprenticeship",
+      "level": "Level 3 (Advanced / EPA)",
+      "levelCode": "Level 3",
+      "discipline": "Manufacturing & Production",
+      "salary": "£20,419 a year",
+      "closingDate": "2026-11-30",
+      "postedDate": "2026-10-21",
+      "epaStandard": "Engineering and manufacturing support technician (level 3)",
+      "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000060258",
+      "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Engineering and manufacturing support technician (level 3).",
       "requirements": "See the full advert on GOV.UK for entry requirements.",
       "source": "GOV.UK Find an Apprenticeship (Route 9)"
     }
