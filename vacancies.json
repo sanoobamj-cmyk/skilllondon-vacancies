@@ -1,37 +1,18 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-21T14:08:57.300Z",
-    "lastUpdatedFormatted": "21 November 2026 at 14:08 UTC",
+    "lastUpdated": "2026-11-22T13:59:09.615Z",
+    "lastUpdatedFormatted": "22 November 2026 at 13:59 UTC",
     "sourceName": "GOV.UK Find an Apprenticeship & Teaching Vacancies in FE Colleges",
     "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?routeIds=9&distance=10&routePath=Location",
     "schedule": "Daily at 06:00 UTC (GitHub Actions)",
-    "totalActive": 81,
+    "totalActive": 80,
     "status": "active",
     "syncLog": [
       "Apprenticeships: 50 live vacancies fetched.",
-      "FE college jobs: 32 live vacancies fetched."
+      "FE college jobs: 31 live vacancies fetched."
     ]
   },
   "vacancies": [
-    {
-      "id": "fe-govuk-programme-manager-in-engineering-and-electrical",
-      "title": "Programme Manager in Engineering and Electrical",
-      "employer": "Windsor Forest Colleges Group",
-      "location": "Windsor Forest Colleges Group, Station Road, Slough, Berkshire, SL3 8BY",
-      "borough": "Windsor Forest Colleges Group, Station Road, Slough, Berkshire, SL3 8BY",
-      "category": "FE College & Teaching",
-      "level": "FE College Leadership & Management",
-      "levelCode": "FE College",
-      "discipline": "Electrical",
-      "salary": "£41,256 to £49,315",
-      "closingDate": "2026-11-21",
-      "postedDate": "2026-10-27",
-      "epaStandard": "Further Education College (FE College, ages 16 to 99 Full time: 37 hours per week)",
-      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/programme-manager-in-engineering-and-electrical",
-      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at Windsor Forest Colleges Group, Station Road, Slough, Berkshire, SL3 8BY. FE College, ages 16 to 99 Full time: 37 hours per week.",
-      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
-      "source": "GOV.UK Teaching & FE Vacancies"
-    },
     {
       "id": "fe-govuk-electrical-installation-lecturer-new-college-swindon",
       "title": "Electrical Installation Lecturer",
