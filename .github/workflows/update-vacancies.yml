@@ -2,7 +2,7 @@ name: Update vacancies daily
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # every day at 06:00 UTC (6am UK in winter, 7am in summer)
+    - cron: '43 5 * * *'   # every day at 05:43 UTC, so the list is fresh by about 6am UK (off-the-hour times start more reliably)
   workflow_dispatch:       # adds a "Run workflow" button on the Actions tab
 
 permissions:
