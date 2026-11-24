@@ -3,6 +3,7 @@ name: Update vacancies daily
 on:
   schedule:
     - cron: '43 5 * * *'   # every day at 05:43 UTC, so the list is fresh by about 6am UK (off-the-hour times start more reliably)
+    - cron: '17 11 * * *'  # backup run at 11:17 UTC in case GitHub skips the morning run (no-op if nothing changed)
   workflow_dispatch:       # adds a "Run workflow" button on the Actions tab
 
 permissions:
