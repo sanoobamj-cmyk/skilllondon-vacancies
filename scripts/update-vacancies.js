@@ -7,7 +7,7 @@
  * vacancies.json, which skilllondon.com/vacancies reads.
  *
  *   1. Find an Apprenticeship – Route 9 (Engineering and Manufacturing)
- *   2. Teaching Vacancies – Engineering / Electrics / Computing roles in FE colleges
+ *   2. Teaching Vacancies – every job at FE colleges (all subjects and roles)
  *
  * If a source fails, the vacancies already saved for that source are kept.
  * If both sources return nothing, the script exits with an error and leaves
@@ -25,8 +25,8 @@ const APPRENTICESHIP_URL = 'https://www.findapprenticeship.service.gov.uk/appren
 const APPRENTICESHIP_PAGES = 5; // 10 per page
 
 const TEACHING_BASE = 'https://teaching-vacancies.service.gov.uk';
-const TEACHING_FE_URL = TEACHING_BASE + '/jobs?teaching_job_roles%5B%5D=teacher&support_job_roles%5B%5D=teaching_assistant&support_job_roles%5B%5D=leadership_and_management&support_job_roles%5B%5D=apprenticeships_and_commercial_services&subjects%5B%5D=Computing&subjects%5B%5D=Electrics&subjects%5B%5D=Engineering&organisation_types%5B%5D=FE+Colleges&sort_by=expires_at_non_default';
-const TEACHING_PAGES = 5;
+const TEACHING_FE_URL = TEACHING_BASE + '/jobs?organisation_types%5B%5D=FE+Colleges&sort_by=expires_at_non_default';
+const TEACHING_PAGES = 50; // 10 per page; about 340 FE college jobs in Nov 2026
 
 const APPRENTICESHIP_CATEGORY = 'Apprenticeship';
 const FE_CATEGORY = 'FE College & Teaching';
@@ -136,17 +136,55 @@ async function fetchApprenticeships() {
   return out;
 }
 
+/** Sort a GOV.UK FE college job title into a subject area and a role type. */
+const FE_DISCIPLINE_RULES = [
+  ['Electrical', /electric|electrotechnical/],
+  ['Engineering & Manufacturing', /engineer|mechanical|fabricat|welding|manufactur|motor vehicle|automotive|aerospace|cnc|machining|marine|mechatronic|\brail\b|\bhgv\b|\bstem\b/],
+  ['Construction & Trades', /construct|carpentry|joinery|plumb|brick|plaster|painting|decorat|building services|built environment|\bgas\b|hvac|refrigerat|multi-?trade|trowel|roofing|civil/],
+  ['Computing & Digital', /computing|digital|\bit\b|\bict\b|software|cyber|data science|programming|\bai\b|developer/],
+  ['Maths & English', /\bmaths?\b|mathematic|english|functional skills|esol|essential skills|literacy|numeracy|celta|\bgcse\b/],
+  ['Science', /science|physics|chemistry|biology/],
+  ['Health, Care & Early Years', /health|\bcare\b|caring|nursing|early years|childcare|childhood|nursery|social|dental|pharmac|counsell/],
+  ['Land-based & Animal Care', /equine|animal|countryside|habitat|horticult|agricult|land-?based|floristry|forestry|veterinary|groom|butcher|zoo/],
+  ['Business, Law & Tourism', /business|accounting|\blaw\b|legal|travel|tourism|aviation|enterprise|retail/],
+  ['Creative Arts & Media', /\bart\b|\barts\b|design|media|music|performing|drama|dance|photograph|fashion|games|creative|film|theatre|radio|podcast|violin|guitar|piano|\bband\b|vocal/],
+  ['Languages & Teacher Training', /mandarin|chinese|french|spanish|german|arabic|language|teacher training|teacher education|\bpgce\b|professional development|advanced practitioner|learning & development|learning and development/],
+  ['Humanities & A Levels', /geograph|history|psycholog|sociolog|philosoph|politic|religio|criminolog|a levels?\b|humanities/],
+  ['Sport & Public Services', /sport|public services|uniformed|fitness|protective|adventure/],
+  ['Hair, Beauty & Hospitality', /hair|barber|beauty|catering|hospitality|\bchef\b|culinary|bakery|patisserie|\bspa\b/],
+  ['Learning Support & SEND', /learning support|\bsend\b|\bsen\b|senco|sendco|inclusive|educational support|pathways|\bspld\b|inclusion|mentor|pastoral|foundation|high needs|supported|supporting teaching|teaching assistant|transition|\bea?hcp\b|interpret|sign language|access/],
+  ['College Support Staff', /clean|caretak|estates|admin|reception|finance|funding|compliance|payroll|\bhr\b|human resources|people|organisational|marketing|it support|exams?\b|careers|safeguarding|librar|learning resource|security|service assistant|facilities|data|\bmis\b|recruitment|student services|welfare|attendance|placement|employ|engagement|enrichment|clerk|officer|coordinator|technician|groom|supervisor|operations/]
+];
+
+function feDiscipline(title) {
+  const t = title.toLowerCase();
+  for (const [name, re] of FE_DISCIPLINE_RULES) if (re.test(t)) return name;
+  return 'Other FE Roles';
+}
+
+function feRole(title) {
+  const t = title.toLowerCase();
+  if (/\b(head|director|principal|manager|leader|leadership)\b|\bcm\b/.test(t) && !/head chef/.test(t)) return 'FE College Leadership & Management';
+  if (/assessor|skills coach|trainer|\biqa\b|verifier|work-?based/.test(t)) return 'FE College Assessor / Trainer';
+  if (/lecturer|teacher|tutor|instructor|teaching|practitioner/.test(t) && !/assistant|support tutor|pastoral/.test(t)) return 'FE College Lecturer / Teacher';
+  return 'FE College Support Staff';
+}
+
 /** 2. GOV.UK Teaching Vacancies – FE colleges */
 async function fetchFeCollegeJobs() {
   const listings = [];
+  const seenPaths = new Set();
   for (let page = 1; page <= TEACHING_PAGES; page++) {
     const html = await getHtml(`${TEACHING_FE_URL}&page=${page}`);
     const blocks = html.split('<div class="search-results__item"').slice(1);
     if (blocks.length === 0) break;
 
+    let newOnPage = 0;
     for (const block of blocks) {
       const link = block.match(/href="(\/jobs\/[a-z0-9-]+)"[^>]*>([\s\S]*?)<\/a>/i);
-      if (!link) continue;
+      if (!link || seenPaths.has(link[1])) continue;
+      seenPaths.add(link[1]);
+      newOnPage++;
       const paras = [...block.matchAll(/<p class="govuk-body[^"]*">([\s\S]*?)<\/p>/gi)].map(m => clean(m[1]));
       listings.push({
         jobPath: link[1],
@@ -156,7 +194,8 @@ async function fetchFeCollegeJobs() {
         pattern: paras.find(p => /full time|part time|ages/i.test(p)) || 'See advert'
       });
     }
-    if (blocks.length < 10) break;
+    // Past the last page GOV.UK repeats the final page, so stop when nothing is new.
+    if (blocks.length < 10 || newOnPage === 0) break;
     await sleep(500);
   }
 
@@ -176,12 +215,6 @@ async function fetchFeCollegeJobs() {
     }
     await sleep(300);
 
-    let discipline = 'Engineering & Manufacturing';
-    if (/electrical|electrics/i.test(job.title)) discipline = 'Electrical';
-    else if (/dtec|design|cad/i.test(job.title)) discipline = 'Design & CAD';
-    else if (/computing|digital|\bit\b/i.test(job.title)) discipline = 'Computing & Digital';
-    else if (/workshop|practical|facilitator/i.test(job.title)) discipline = 'Machining';
-
     out.push({
       id: `fe-govuk-${job.jobPath.replace('/jobs/', '')}`,
       title: job.title,
@@ -189,9 +222,9 @@ async function fetchFeCollegeJobs() {
       location: job.address,
       borough: job.address,
       category: FE_CATEGORY,
-      level: /manager|leader|head|director/i.test(job.title) ? 'FE College Leadership & Management' : 'FE College Lecturer / Teacher',
+      level: feRole(job.title),
       levelCode: 'FE College',
-      discipline,
+      discipline: feDiscipline(job.title),
       salary: job.salary,
       closingDate,
       postedDate,
