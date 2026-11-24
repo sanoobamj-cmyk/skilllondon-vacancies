@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-24T16:12:02.403Z",
-    "lastUpdatedFormatted": "24 November 2026 at 16:12 UTC",
+    "lastUpdated": "2026-11-24T16:24:44.294Z",
+    "lastUpdatedFormatted": "24 November 2026 at 16:24 UTC",
     "sourceName": "GOV.UK Find an Apprenticeship & Teaching Vacancies in FE Colleges",
     "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?routeIds=9&distance=10&routePath=Location",
     "schedule": "Daily at 06:00 UTC (GitHub Actions)",
