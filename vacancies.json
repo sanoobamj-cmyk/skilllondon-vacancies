@@ -1,15 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-25T16:07:01.231Z",
-    "lastUpdatedFormatted": "25 November 2026 at 16:07 UTC",
+    "lastUpdated": "2026-11-25T20:32:41.280Z",
+    "lastUpdatedFormatted": "25 November 2026 at 20:32 UTC",
     "sourceName": "GOV.UK Find an Apprenticeship & Teaching Vacancies in FE Colleges",
     "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?routeIds=9&distance=10&routePath=Location",
     "schedule": "Daily at 06:00 UTC (GitHub Actions)",
-    "totalActive": 407,
+    "totalActive": 411,
     "status": "active",
     "syncLog": [
       "Apprenticeships: 50 live vacancies fetched.",
-      "FE college jobs: 361 live vacancies fetched."
+      "FE college jobs: 365 live vacancies fetched."
     ]
   },
   "vacancies": [
@@ -5163,6 +5163,25 @@
       "source": "GOV.UK Teaching & FE Vacancies"
     },
     {
+      "id": "fe-govuk-sessional-lecturer-art-and-design-level-2",
+      "title": "Sessional Lecturer – Art and Design (Level 2)",
+      "employer": "Morley College London",
+      "location": "Morley College London, Hortensia Road, London, SW10 0QS",
+      "borough": "Morley College London, Hortensia Road, London, SW10 0QS",
+      "category": "FE College & Teaching",
+      "level": "FE College Lecturer / Teacher",
+      "levelCode": "FE College",
+      "discipline": "Creative Arts & Media",
+      "salary": "Hourly rate £32.25 per hour plus £7.85 per hour holiday pay paid on a termly basis",
+      "closingDate": "2026-12-09",
+      "postedDate": "2026-11-25",
+      "epaStandard": "Further Education College (FE College, ages 16 to 99 Part time: The successful candidate will be required to teach six hours per week on Fridays, from 9:00am to 12:30pm and 1:30pm to 4:00pm.)",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/sessional-lecturer-art-and-design-level-2",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at Morley College London, Hortensia Road, London, SW10 0QS. FE College, ages 16 to 99 Part time: The successful candidate will be required to teach six hours per week on Fridays, from 9:00am to 12:30pm and 1:30pm to 4:00pm..",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
       "id": "fe-govuk-security-officer-waltham-forest-college",
       "title": "Security Officer",
       "employer": "Waltham Forest College",
@@ -5790,6 +5809,25 @@
       "source": "GOV.UK Teaching & FE Vacancies"
     },
     {
+      "id": "fe-govuk-behaviour-mentor-waltham-forest-college",
+      "title": "Behaviour Mentor",
+      "employer": "Waltham Forest College",
+      "location": "Waltham Forest College, Forest Road, London, E17 4JB",
+      "borough": "Waltham Forest College, Forest Road, London, E17 4JB",
+      "category": "FE College & Teaching",
+      "level": "FE College Support Staff",
+      "levelCode": "FE College",
+      "discipline": "Learning Support & SEND",
+      "salary": "£29,046 - £30,906",
+      "closingDate": "2026-12-14",
+      "postedDate": "2026-11-25",
+      "epaStandard": "Further Education College (FE College, ages 16 to 99 Full time)",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-waltham-forest-college",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at Waltham Forest College, Forest Road, London, E17 4JB. FE College, ages 16 to 99 Full time.",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
       "id": "fe-govuk-lecturer-in-early-years-maternity-cover",
       "title": "Lecturer in Early Years (Maternity Cover)",
       "employer": "North Kent College",
@@ -6246,6 +6284,25 @@
       "source": "GOV.UK Teaching & FE Vacancies"
     },
     {
+      "id": "fe-govuk-motor-vehicle-lecturer-east-lancashire-learning-group",
+      "title": "Motor Vehicle Lecturer",
+      "employer": "East Lancashire Learning Group",
+      "location": "East Lancashire Learning Group, Accrington & Rossendale College, Sandy Lane, Accrington, BB5 2AR",
+      "borough": "East Lancashire Learning Group, Accrington & Rossendale College, Sandy Lane, Accrington, BB5 2AR",
+      "category": "FE College & Teaching",
+      "level": "FE College Lecturer / Teacher",
+      "levelCode": "FE College",
+      "discipline": "Engineering & Manufacturing",
+      "salary": "Up to £41,937 per annum, depending on experience (pay award pending) Plus £4,000 market premium payment for candidates with identified experience",
+      "closingDate": "2027-01-03",
+      "postedDate": "2026-11-25",
+      "epaStandard": "Further Education College (FE College, ages 16 to 99 Full time)",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/motor-vehicle-lecturer-east-lancashire-learning-group",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at East Lancashire Learning Group, Accrington & Rossendale College, Sandy Lane, Accrington, BB5 2AR. FE College, ages 16 to 99 Full time.",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
       "id": "fe-govuk-nursery-keyperson",
       "title": "Nursery Keyperson",
       "employer": "West Thames College",
@@ -6337,6 +6394,25 @@
       "epaStandard": "Further Education College (FE College, ages 16 to 99 Term time, part time: 22.2 hours per week 40 weeks per year (term time only) 9am to 4pm Tuesday, Wednesday, Thursday)",
       "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/inclusion-practitioner-heart-of-yorkshire-education-group",
       "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at Heart of Yorkshire Education Group, Castleford College, Thunderhead Ridge, Castleford, West Yorkshire, WF10 4UA. FE College, ages 16 to 99 Term time, part time: 22.2 hours per week 40 weeks per year (term time only) 9am to 4pm Tuesday, Wednesday, Thursday.",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
+      "id": "fe-govuk-part-time-hourly-paid-electrical-installation-lecturer",
+      "title": "Part Time Hourly Paid Electrical Installation Lecturer",
+      "employer": "East Lancashire Learning Group",
+      "location": "East Lancashire Learning Group, Accrington & Rossendale College, Sandy Lane, Accrington, BB5 2AR",
+      "borough": "East Lancashire Learning Group, Accrington & Rossendale College, Sandy Lane, Accrington, BB5 2AR",
+      "category": "FE College & Teaching",
+      "level": "FE College Lecturer / Teacher",
+      "levelCode": "FE College",
+      "discipline": "Electrical",
+      "salary": "Hourly rate £27.89 per hour (pay award pending)",
+      "closingDate": "2027-01-03",
+      "postedDate": "2026-11-25",
+      "epaStandard": "Further Education College (FE College, ages 16 to 99 Part time)",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/part-time-hourly-paid-electrical-installation-lecturer",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at East Lancashire Learning Group, Accrington & Rossendale College, Sandy Lane, Accrington, BB5 2AR. FE College, ages 16 to 99 Part time.",
       "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
       "source": "GOV.UK Teaching & FE Vacancies"
     },
@@ -7386,6 +7462,25 @@
       "source": "GOV.UK Find an Apprenticeship (Route 9)"
     },
     {
+      "id": "VAC2000065883",
+      "title": "Apprentice Electrical Panel Wireman (Engineering Operative)",
+      "employer": "MENDIP REFRIDGERATION CONTRO & CONSULTANCY SERVICES LTD",
+      "location": "PETHERTON ROAD (BS14 9XE)",
+      "borough": "PETHERTON ROAD (BS14 9XE)",
+      "category": "Apprenticeship",
+      "level": "Level 2 (Intermediate)",
+      "levelCode": "Level 2",
+      "discipline": "Electrical",
+      "salary": "£15,600 a year",
+      "closingDate": "2026-12-11",
+      "postedDate": "2026-11-25",
+      "epaStandard": "Engineering operative (level 2)",
+      "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000065883",
+      "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Engineering operative (level 2).",
+      "requirements": "See the full advert on GOV.UK for entry requirements.",
+      "source": "GOV.UK Find an Apprenticeship (Route 9)"
+    },
+    {
       "id": "VAC2000063832",
       "title": "Apprentice Engineer",
       "employer": "ARVILLE TEXTILES LTD (WEEKLY WAGES)",
@@ -7723,25 +7818,6 @@
       "postedDate": "2026-11-17",
       "epaStandard": "Heavy vehicle service and maintenance technician (level 3)",
       "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000060191",
-      "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Heavy vehicle service and maintenance technician (level 3).",
-      "requirements": "See the full advert on GOV.UK for entry requirements.",
-      "source": "GOV.UK Find an Apprenticeship (Route 9)"
-    },
-    {
-      "id": "VAC2000060880",
-      "title": "Apprentice Heavy Vehicle Technician",
-      "employer": "PETER GREEN HAULAGE LIMITED",
-      "location": "Shepton Mallet (BA4 6LQ)",
-      "borough": "Shepton Mallet (BA4 6LQ)",
-      "category": "Apprenticeship",
-      "level": "Level 3 (Advanced / EPA)",
-      "levelCode": "Level 3",
-      "discipline": "Maintenance",
-      "salary": "£16,640 a year",
-      "closingDate": "2026-11-28",
-      "postedDate": "2026-10-26",
-      "epaStandard": "Heavy vehicle service and maintenance technician (level 3)",
-      "applicationUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000060880",
       "description": "Official vacancy from the GOV.UK Find an Apprenticeship service. Training course: Heavy vehicle service and maintenance technician (level 3).",
       "requirements": "See the full advert on GOV.UK for entry requirements.",
       "source": "GOV.UK Find an Apprenticeship (Route 9)"
