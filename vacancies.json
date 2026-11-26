@@ -1,15 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-26T15:52:07.607Z",
-    "lastUpdatedFormatted": "26 November 2026 at 15:52 UTC",
+    "lastUpdated": "2026-11-26T20:14:56.836Z",
+    "lastUpdatedFormatted": "26 November 2026 at 20:14 UTC",
     "sourceName": "GOV.UK Find an Apprenticeship & Teaching Vacancies in FE Colleges",
     "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?routeIds=9&distance=10&routePath=Location",
     "schedule": "Daily at 06:00 UTC (GitHub Actions)",
-    "totalActive": 425,
+    "totalActive": 430,
     "status": "active",
     "syncLog": [
       "Apprenticeships: 50 live vacancies fetched.",
-      "FE college jobs: 379 live vacancies fetched."
+      "FE college jobs: 384 live vacancies fetched."
     ]
   },
   "vacancies": [
@@ -3814,6 +3814,25 @@
       "source": "GOV.UK Teaching & FE Vacancies"
     },
     {
+      "id": "fe-govuk-sports-academy-operations-lead",
+      "title": "Sports Academy Operations Lead",
+      "employer": "South Gloucestershire and Stroud College",
+      "location": "South Gloucestershire and Stroud College, WISE Campus, New Road, Stoke Gifford, Bristol, BS34 8LP",
+      "borough": "South Gloucestershire and Stroud College, WISE Campus, New Road, Stoke Gifford, Bristol, BS34 8LP",
+      "category": "FE College & Teaching",
+      "level": "FE College Support Staff",
+      "levelCode": "FE College",
+      "discipline": "Sport & Public Services",
+      "salary": "FTE Salary: Up to £40,113.00",
+      "closingDate": "2026-12-06",
+      "postedDate": "2026-11-26",
+      "epaStandard": "Further Education College (FE College, ages 14 to 99 Full time)",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/sports-academy-operations-lead",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at South Gloucestershire and Stroud College, WISE Campus, New Road, Stoke Gifford, Bristol, BS34 8LP. FE College, ages 14 to 99 Full time.",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
       "id": "fe-govuk-learning-support-assistant-derwentside-college",
       "title": "Learning Support Assistant",
       "employer": "Derwentside College",
@@ -4688,6 +4707,25 @@
       "source": "GOV.UK Teaching & FE Vacancies"
     },
     {
+      "id": "fe-govuk-lecturer-in-public-services-policing-nsf000160",
+      "title": "Lecturer in Public Services (Policing) (NSF000160)",
+      "employer": "RNN Group",
+      "location": "RNN Group, North Notts College, 215 Carlton Rd, Worksop, S81 7HP",
+      "borough": "RNN Group, North Notts College, 215 Carlton Rd, Worksop, S81 7HP",
+      "category": "FE College & Teaching",
+      "level": "FE College Lecturer / Teacher",
+      "levelCode": "FE College",
+      "discipline": "Sport & Public Services",
+      "salary": "Upto £33,487 (£27,151.62 Pro-rata) per annum (depending on experience and qualifications) + Benefits",
+      "closingDate": "2026-12-07",
+      "postedDate": "2026-11-26",
+      "epaStandard": "Further Education College (FE College, ages 16 to 99 Part time: Part time (30 hours per week, all year round))",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/lecturer-in-public-services-policing-nsf000160",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at RNN Group, North Notts College, 215 Carlton Rd, Worksop, S81 7HP. FE College, ages 16 to 99 Part time: Part time (30 hours per week, all year round).",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
       "id": "fe-govuk-res-carpentry-joinery-lecturer-nsf001691-rnn-group",
       "title": "RES Carpentry & Joinery Lecturer (NSF001691)",
       "employer": "RNN Group",
@@ -5296,6 +5334,25 @@
       "source": "GOV.UK Teaching & FE Vacancies"
     },
     {
+      "id": "fe-govuk-lecturer-in-criminology-l3-applied-diploma-and-sociology",
+      "title": "Lecturer in Criminology (L3 Applied Diploma) and Sociology",
+      "employer": "Norwich City College of Further and Higher Education",
+      "location": "Norwich City College of Further and Higher Education, Ipswich Road, Norwich, Norfolk, NR2 2LJ",
+      "borough": "Norwich City College of Further and Higher Education, Ipswich Road, Norwich, Norfolk, NR2 2LJ",
+      "category": "FE College & Teaching",
+      "level": "FE College Lecturer / Teacher",
+      "levelCode": "FE College",
+      "discipline": "Humanities & A Levels",
+      "salary": "£34,421 - £41,074 per annum",
+      "closingDate": "2026-12-09",
+      "postedDate": "2026-11-26",
+      "epaStandard": "Further Education College (FE College, ages 16 to 99 Full time: 5 days per week, Monday to Friday)",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/lecturer-in-criminology-l3-applied-diploma-and-sociology",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at Norwich City College of Further and Higher Education, Ipswich Road, Norwich, Norfolk, NR2 2LJ. FE College, ages 16 to 99 Full time: 5 days per week, Monday to Friday.",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
       "id": "fe-govuk-lecturer-in-a-levels-geography",
       "title": "Lecturer in A Levels - Geography",
       "employer": "Heart of Yorkshire Education Group",
@@ -5862,6 +5919,25 @@
       "epaStandard": "Further Education College (FE College, ages 16 to 99 Part time: 22.2 hours per week, 52 weeks per annum)",
       "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/lecturer-in-early-years-maternity-cover",
       "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at North Kent College, Oakfield Lane, Dartford, Kent, DA1 2JT. FE College, ages 16 to 99 Part time: 22.2 hours per week, 52 weeks per annum.",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
+      "id": "fe-govuk-assessor-early-years",
+      "title": "Assessor (Early Years)",
+      "employer": "North Kent College",
+      "location": "North Kent College, Oakfield Lane, Dartford, Kent, DA1 2JT",
+      "borough": "North Kent College, Oakfield Lane, Dartford, Kent, DA1 2JT",
+      "category": "FE College & Teaching",
+      "level": "FE College Assessor / Trainer",
+      "levelCode": "FE College",
+      "discipline": "Health, Care & Early Years",
+      "salary": "£36,547 per annum",
+      "closingDate": "2026-12-15",
+      "postedDate": "2026-11-26",
+      "epaStandard": "Further Education College (FE College, ages 16 to 99 Full time: 37 hours per week, 52 weeks per annum (1 FTE))",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/assessor-early-years",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at North Kent College, Oakfield Lane, Dartford, Kent, DA1 2JT. FE College, ages 16 to 99 Full time: 37 hours per week, 52 weeks per annum (1 FTE).",
       "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
       "source": "GOV.UK Teaching & FE Vacancies"
     },
@@ -6622,6 +6698,25 @@
       "epaStandard": "Further Education College (FE College, ages 16 to 99 Part time: 3 days per week - Wednesday–Friday, 8:30am–5:30pm)",
       "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/dog-groomer",
       "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at Plumpton College, One Garden Brighton, Stanmer Park, Falmer, Brighton, BN1 9SE. FE College, ages 16 to 99 Part time: 3 days per week - Wednesday–Friday, 8:30am–5:30pm.",
+      "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
+      "source": "GOV.UK Teaching & FE Vacancies"
+    },
+    {
+      "id": "fe-govuk-vice-principal-teaching-learning-and-assessment-south-gloucestershire-and-stroud-college",
+      "title": "Vice Principal – Teaching, Learning and Assessment",
+      "employer": "South Gloucestershire and Stroud College",
+      "location": "South Gloucestershire and Stroud College, SGS College, WISE Campus, New Road, Bristol, BS34 8LP",
+      "borough": "South Gloucestershire and Stroud College, SGS College, WISE Campus, New Road, Bristol, BS34 8LP",
+      "category": "FE College & Teaching",
+      "level": "FE College Leadership & Management",
+      "levelCode": "FE College",
+      "discipline": "Other FE Roles",
+      "salary": "circa £80,000",
+      "closingDate": "2027-01-10",
+      "postedDate": "2026-11-26",
+      "epaStandard": "Further Education College (FE College, ages 14 to 99 Full time)",
+      "applicationUrl": "https://teaching-vacancies.service.gov.uk/jobs/vice-principal-teaching-learning-and-assessment-south-gloucestershire-and-stroud-college",
+      "description": "Official Further Education vacancy from GOV.UK Teaching Vacancies at South Gloucestershire and Stroud College, SGS College, WISE Campus, New Road, Bristol, BS34 8LP. FE College, ages 14 to 99 Full time.",
       "requirements": "See the full advert on GOV.UK for qualifications and experience required.",
       "source": "GOV.UK Teaching & FE Vacancies"
     },
